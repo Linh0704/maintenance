@@ -1,2 +1,2 @@
 # maintenance
-Maintenance script
+Maintenance script for Linux
