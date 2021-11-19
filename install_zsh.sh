@@ -1,4 +1,4 @@
-sudo apt-get install zsh -y
+sudo apt-get install curl zsh -y
 sudo curl -L http://install.ohmyz.sh | sh
 chsh -s $(which zsh)
 git clone git://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
