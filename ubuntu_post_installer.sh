@@ -24,7 +24,7 @@ sudo apt install ./code_1.66.2-1649664567_amd64.deb -y
 
 ## Personal Utilities
 #<---- VLC ---->
-sudo apt install vlc 
+sudo apt install vlc -y
 
 #<---- Spotify ---->
 curl -sS https://download.spotify.com/debian/pubkey_5E3C45D7B312C643.gpg | sudo apt-key add - 
