@@ -3,24 +3,24 @@
 sudo apt update
 
 #core installation
-sudo apt-get install python3 unzip wget tmux htop git curl -y
+sudo apt-get install python3 unzip wget tmux htop git curl vim -y
 
 # Ultilities
 ## Work Utilites
 #<---- Chrome ---->
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt install ./google-chrome-stable_current_amd64.deb -y
-rm ./google-chrome-stable_current_amd64.deb
+wget -O /tmp/chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install /tmp/chrome.deb -y
+
 
 #<---- Slack 4.25.0 64---->
-wget https://downloads.slack-edge.com/releases/linux/4.25.0/prod/x64/slack-desktop-4.25.0-amd64.deb
-sudo apt install ./slack-desktop-4.25.0-amd64.deb  -y
-rm ./slack-desktop-4.25.0-amd64.deb
+wget -O /tmp/slack.deb https://downloads.slack-edge.com/releases/linux/4.25.0/prod/x64/slack-desktop-4.25.0-amd64.deb
+sudo apt install /tmp/slack.deb  -y
 
 
 ##<---- VsCode 1.66.2 ---->
-wget https://az764295.vo.msecnd.net/stable/dfd34e8260c270da74b5c2d86d61aee4b6d56977/code_1.66.2-1649664567_amd64.deb
-sudo apt install ./code_1.66.2-1649664567_amd64.deb -y
+wget -O /tmp/code.deb https://az764295.vo.msecnd.net/stable/dfd34e8260c270da74b5c2d86d61aee4b6d56977/code_1.66.2-1649664567_amd64.deb
+sudo apt install /tmp/code.deb -y
+
 
 ## Personal Utilities
 #<---- VLC ---->
